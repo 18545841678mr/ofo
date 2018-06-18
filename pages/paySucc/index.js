@@ -1,4 +1,4 @@
-// pages/.js
+// pages/paySucc/index.js
 Page({
 
   /**
