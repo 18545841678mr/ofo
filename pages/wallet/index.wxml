@@ -16,12 +16,12 @@
       <text>我的用车券</text>
       <text>{{ticket}}张></text>
    </view>
-   <view class="my-deposit tapbar">
+   <view class="my-deposit tapbar" bindtap='movetoCash'>
       <text>我的押金</text>
-      <text><text class="color">99元，押金退款</text>></text>
+      <text><text class="color">已支付</text>></text>
    </view>
    <view class="about tapbar">
-      <text>关于ofo</text>
+      <text>关于共享单车</text>
       <text>></text>
    </view>
 </view>

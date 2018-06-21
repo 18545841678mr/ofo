@@ -1,1 +1,18 @@
 /* pages/paySucc/index.wxss */
+image{
+  margin-top: 80rpx;
+  height: 500rpx;
+  width: 500rpx;
+  margin-left: 120rpx;
+}
+text{
+  margin: 50rpx 0;
+  display: block;
+  font-size: 100rpx;
+  text-align: center;
+  width: 100vw;
+}
+button{
+  margin-top: 150rpx;
+  width: 90%;
+}

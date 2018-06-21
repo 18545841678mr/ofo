@@ -1,4 +1,4 @@
-// pages/paySucc/index.js
+// pages/cash/index.js
 Page({
 
   /**
@@ -7,17 +7,12 @@ Page({
   data: {
   
   },
-  returnToIndex:function(){
-    wx.redirectTo({
-      url: '../index/index'
-    })
-  },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(this.timer);
+  
   },
 
   /**

@@ -1,0 +1,4 @@
+<view class="cash">
+    <image src="../../images/cash.svg"></image>
+    <view class="context">押金已支付</view>
+</view>

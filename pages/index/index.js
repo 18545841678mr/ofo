@@ -90,6 +90,7 @@ Page({
             iconPath : "/images/use.png",
             position : {
               width : 100,
+              height: 100,
               left : res.windowWidth/2 - 50,
               top : res.windowHeight - 120
             },
@@ -119,6 +120,7 @@ Page({
             iconPath: "/images/marker.png",
             position: {
               width: 20,
+              height: 30,
               left: res.windowWidth / 2 - 10,
               top: res.windowHeight / 2 - 30
             }
@@ -134,7 +136,18 @@ Page({
   onReady: function () {
   
   },
-  movetoCenter: function () {
+  getCenterPoint: function (e) {
+    var $this = this;
+    this.mapctx.getCenterLocation({
+      success: function (res) {
+        $this.setData({
+          latitude: res.latitude,
+          longitude: res.longitude
+        })
+      }
+    })
+  },
+  movetoCenter: function (e) {
     this.mapctx.moveToLocation();
   },
 

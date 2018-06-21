@@ -1,2 +1,7 @@
-<!--pages/paySucc/index.wxml-->
-<text>pages/paySucc/index.wxml</text>
+<view class="paySucc">
+  <view class="icon">
+    <image src='../../images/over.svg'></image>
+  </view>  
+  <text>骑行结束</text>
+  <button type="primary" bindtap="returnToIndex">回到地图</button>
+</view>

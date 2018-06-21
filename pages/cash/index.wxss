@@ -1,0 +1,13 @@
+/* pages/cash/index.wxss */
+image{
+  width: 400rpx;
+  height: 400rpx;
+  margin-left: 180rpx;
+  margin-top: 120rpx;
+}
+.context{
+  width: 100vw;
+  font-size: 70rpx;
+  text-align: center;
+  margin-top: 80rpx;
+}

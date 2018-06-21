@@ -17,9 +17,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      number: options.number
-    })
+    // this.setData({
+    //   number: options.number
+    // })
     let h = 0;
     let m = 0;
     let s = 0;
@@ -56,12 +56,17 @@ Page({
          actionText: "本次骑行时间为",
          clickBtn: true
       })
+      setTimeout(()=>{
+        wx.redirectTo({
+          url: '../paySucc/index',
+        })
+      },3000)
   },
 
   returnIndex: function() {
      if(this.timer == "") {
         wx.redirectTo({
-           url: '../index/index'
+           url: '../paySucc/index'
         })
      }else{
         wx.navigateTo({

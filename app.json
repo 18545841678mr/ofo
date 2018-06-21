@@ -3,8 +3,9 @@
      "pages/index/index",
      "pages/wallet/index",
      "pages/charge/index",
+     "pages/cash/index",
      "pages/my/index",
-     "pages/warn/index",
+     "pages/warn/index", 
      "pages/billing/index",  
      "pages/scanResult/index",
      "pages/paySucc/index"
